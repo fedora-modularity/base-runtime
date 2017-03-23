@@ -45,7 +45,7 @@ based on a small set of basic rules:
 * if the package is in the runtime dependency chain of a toplevel package, it's also included, also obviously
 * if the package provides development environment for another package provided by the module, it should be included
 * if including the package doesn't require any additional components to be added to the module, it should be included; avoid package splits and filtering where possible, even at the cost of adding new components to the set, provided the new components are small, stable, and have minimal dependency chains; use common sense
-* no python or other interpreted languages bindings unless necessary
+* no Python or other interpreted languages bindings unless necessary
 
 Note the API list was mostly done by hand and may therefore contain errors.
 
@@ -818,7 +818,7 @@ to do so.
 
 * `iptables`
     * ~~`iptables`~~, requires `libnetfilter_conntrack` and `libnfnetlink`
-    * ~~`iptables-compat~~`, requires `iptables`, `libmnl`, `libnetfilter_conntrack`, `libnfnetlink` and `libnftnl`
+    * ~~`iptables-compat`~~, requires `iptables`, `libmnl`, `libnetfilter_conntrack`, `libnfnetlink` and `libnftnl`
     * ~~`iptables-devel`~~, **temporarily removed**, requires `iptables`
     * `iptables-libs`, pulled in by the depsolver
     * ~~`iptables-services`~~, requires `iptables`
@@ -1086,8 +1086,8 @@ to do so.
 * `libsemanage`
     * `libsemanage`, pulled in by the depsolver
     * `libsemanage-devel`, since `libsemanage` is our API
-    * ~~`libsemanage-python~~`, requires `python2`
-    * ~~`libsemanage-python3~~`, requires `python3`
+    * ~~`libsemanage-python`~~, requires `python2`
+    * ~~`libsemanage-python3`~~, requires `python3`
     * `libsemanage-static`, since `libsemanage` is our API
 
 * `libsepol`
