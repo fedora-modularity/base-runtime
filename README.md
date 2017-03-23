@@ -861,7 +861,7 @@ to do so.
     * `kmod-libs`, pulled in by the depsolver
 
 * `krb5`
-    * ~~`krb5-devel`~~, **temporarily removed**, depends on `keyutils-libs-devel`
+    * `krb5-devel`, since `krb5-libs` is our API
     * `krb5-libs`, pulled in by the depsolver
     * `krb5-pkinit`, preventing a split
         * depends on `glibc`
@@ -926,7 +926,7 @@ to do so.
 
 * `libassuan`
     * `libassuan`, pulled in by the depsolver
-    * `libassuan-devel`, **temporarily removed**, requires `pth-devel`
+    * ~~`libassuan-devel`~~, **temporarily removed**, requires `pth-devel`
 
 * `libatomic_ops`
     * `libatomic_ops`, pulled in by the depsolver
@@ -949,7 +949,7 @@ to do so.
 
 * `libcroco`
     * `libcroco`, pulled in by the depsolver
-    * `libcroco-devel`, **temporarily removed**, requires `glib2-devel`
+    * ~~`libcroco-devel`~~, **temporarily removed**, requires `glib2-devel`
 
 * `libdb`
     * `libdb`, pulled in by the depsolver
@@ -1057,8 +1057,8 @@ to do so.
 * `libpwquality`
     * `libpwquality`, pulled in by the depsolver
     * `libpwquality-devel`, since `libpwquality` is our API
-    * `python-pwquality`, requires `python2`
-    * `python3-pwquality`, requires `python3`
+    * ~~`python-pwquality`~~, requires `python2`
+    * ~~`python3-pwquality`~~, requires `python3`
 
 * `librepo`
     * `librepo`, pulled in by the depsolver
@@ -1348,10 +1348,10 @@ to do so.
         * depends on `make`
         * depends on `openssl-libs`
         * depends on `zlib`
-    * ~~`openssl-devel`~~, **temporarily removed**, requires `krb5-devel`
+    * ~~`openssl-devel`~~, since `openssl-libs` is our API
     * `openssl-libs`, pulled in by the depsolver
     * ~~`openssl-perl`~~, requires `perl`
-    * ~~`openssl-static`~~, **temporarily removed**, requires `openssl-devel`
+    * ~~`openssl-static`~~, since `openssl-libs` is our API
 
 * `os-prober`
     * `os-prober`, pulled in by the depsolver
@@ -1430,7 +1430,7 @@ to do so.
 
 * `python-packaging`
     * `python-packaging-doc`, preventing a split
-    * `python2-packaging`, requires `python2`
+    * ~~`python2-packaging`~~, requires `python2`
     * `python3-packaging`, pulled in by the depsolver
 
 * `python-pip`
