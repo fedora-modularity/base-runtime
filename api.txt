@@ -526,7 +526,7 @@ kmod-24-1.fc26
 +	kmod-devel-24-1.fc26.x86_64.rpm
 *	kmod-libs-24-1.fc26.x86_64.rpm
 krb5-1.15-6.fc26
-!	krb5-devel-1.15-6.fc26.x86_64.rpm
++	krb5-devel-1.15-6.fc26.x86_64.rpm
 *	krb5-libs-1.15-6.fc26.x86_64.rpm
 +	krb5-pkinit-1.15-6.fc26.x86_64.rpm
 !	krb5-server-1.15-6.fc26.x86_64.rpm
@@ -823,10 +823,10 @@ openldap-2.4.44-8.fc26
 !	openldap-servers-2.4.44-8.fc26.x86_64.rpm
 openssl-1.1.0d-3.fc26
 +	openssl-1.1.0d-3.fc26.x86_64.rpm
-!	openssl-devel-1.1.0d-3.fc26.x86_64.rpm
++	openssl-devel-1.1.0d-3.fc26.x86_64.rpm
 *	openssl-libs-1.1.0d-3.fc26.x86_64.rpm
 !	openssl-perl-1.1.0d-3.fc26.x86_64.rpm
-!	openssl-static-1.1.0d-3.fc26.x86_64.rpm
++	openssl-static-1.1.0d-3.fc26.x86_64.rpm
 os-prober-1.71-2.fc26
 *	os-prober-1.71-2.fc26.x86_64.rpm
 p11-kit-0.23.4-3.fc26
