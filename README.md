@@ -271,6 +271,9 @@ to do so.
         * depends on `libcom_err`
     * `libss-devel`, since `libss` is our API
 
+* `efibootmgr`
+    * `efibootmgr`, pulled in by the depsolver
+
 * `efivar`
     * `efivar`, preventing a split
         * depends on `efivar-libs`
@@ -301,7 +304,7 @@ to do so.
     * `expat-devel`, since `expat` is our API
     * `expat-static`, since `expat` is our API
 
-* `fedora-logso`
+* `fedora-logos`
     * `fedora-logos`, pulled in by the depsolver
     * `fedora-logos-httpd`, preventing a split
 
@@ -762,7 +765,7 @@ to do so.
     * `gnupg2`, pulled in by the depsolver
     * ~~`gnupg2-smime`~~, requires `libusbx`
 
-* `gnutls-c++`
+* `gnutls`
     * `gnutls`, pulled in by the depsolver
     * `gnutls-c++`, preventing a split
         * depends on `glibc`
@@ -1269,7 +1272,7 @@ to do so.
     * `mpfr`, pulled in by the depsolver
     * `mpfr-devel`, since `mpfr` is our API
 
-* `mtool`
+* `mtools`
     * `mtools`, pulled in by the depsolver
 
 * `ncurses`
@@ -1295,7 +1298,7 @@ to do so.
     * `nettle`, pulled in by the depsolver
     * `nettle-devel`, since `nettle` is our API
 
-* `libnghttp2`
+* `nghttp2`
     * `libnghttp2`, pulled in by the depsolver
     * `libnghttp2-devel`, since `libnghttp2` is our API
     * ~~`nghttp2`~~, requires `libev`

@@ -135,16 +135,8 @@ expat-2.2.0-2.fc26
 fedora-logos-26.0.0-2.fc26
 *	fedora-logos-26.0.0-2.fc26.x86_64.rpm
 +	fedora-logos-httpd-26.0.0-2.fc26.noarch.rpm
-fedora-release-26-0.4
-!	convert-to-edition-26-0.4.noarch.rpm
-*	fedora-release-26-0.4.noarch.rpm
-!	fedora-release-atomichost-26-0.4.noarch.rpm
-!	fedora-release-cloud-26-0.4.noarch.rpm
-!	fedora-release-server-26-0.4.noarch.rpm
-!	fedora-release-workstation-26-0.4.noarch.rpm
-fedora-repos-26-0.5
-*	fedora-repos-26-0.5.noarch.rpm
-*	fedora-repos-rawhide-26-0.5.noarch.rpm
+fedora-modular-release-26-2
+*	fedora-modular-release-26-2.noarch.rpm
 fedora-rpm-macros-26-2.fc26
 *	fedora-rpm-macros-26-2.fc26.noarch.rpm
 fedpkg-minimal-1.1.0-8.fc26
