@@ -1348,10 +1348,10 @@ to do so.
         * depends on `make`
         * depends on `openssl-libs`
         * depends on `zlib`
-    * ~~`openssl-devel`~~, since `openssl-libs` is our API
+    * `openssl-devel`, since `openssl-libs` is our API
     * `openssl-libs`, pulled in by the depsolver
     * ~~`openssl-perl`~~, requires `perl`
-    * ~~`openssl-static`~~, since `openssl-libs` is our API
+    * `openssl-static`, since `openssl-libs` is our API
 
 * `os-prober`
     * `os-prober`, pulled in by the depsolver
