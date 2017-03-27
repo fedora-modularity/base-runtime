@@ -520,12 +520,14 @@ to do so.
     * `gdbm-devel`, since `gdbm` is our API
 
 * `gettext`
-    * ~~`emacs-gettext`~~, requires `emacs`
+    * ~~`emacs-gettext`~~, requires `emacs`, deliberately unsupported
+        * not required by anything
     * `gettext`, pulled in by the depsolver
     * `gettext-common-devel`, since `gettext` is our API
     * `gettext-devel`, since `gettext` is our API
     * `gettext-libs`, pulled in by the depsolver
-    * ~~`msghack`~~, requires `python3`
+    * ~~`msghack`~~, requires `python3`, deliberately unsupported
+        * not required by anything
 
 * `ghc-srpm-macros`
     * `ghc-srpm-macros`, pulled in by the depsolver
