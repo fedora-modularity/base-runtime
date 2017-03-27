@@ -352,7 +352,8 @@ to do so.
 
 * `freetype`
     * `freetype`, pulled in by the depsolver
-    * ~~`freetype-demos`~~, requires `libX11`
+    * ~~`freetype-demos`~~, requires `libX11`, deliberately unsupported
+        * not required by anything
     * `freetype-devel`, since `freetype` is our API
 
 * `gawk`
