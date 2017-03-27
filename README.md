@@ -1490,9 +1490,9 @@ to do so.
     * `qrencode-libs`, pulled in by the depsolver
 
 * `qt5`
-    * ~~`qt5`~~, we don't want Qt5
-    * ~~`qt5-devel`~~, we don't want Qt5
-    * ~~`qt5-rpm-macros`~~, requires `cmake`
+    * ~~`qt5`~~, we don't want Qt5, deliberately unsupported
+    * ~~`qt5-devel`~~, we don't want Qt5, deliberately unsupported
+    * ~~`qt5-rpm-macros`~~, requires `cmake`, deliberately unsupported
     * `qt5-srpm-macros`, pulled in by the depsolver
 
 * `readline`
