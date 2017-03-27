@@ -321,8 +321,20 @@ to do so.
     * `file`, pulled in by the depsolver
     * `file-devel`, since `file-libs` is our API
     * `file-libs`, pulled in by the depsolver
-    * ~~`python-magic`~~, requires `python2`
-    * ~~`python3-magic`~~, requires `python3`
+    * ~~`python-magic`~~, requires `python2`, deliberately unsupported
+        * required by `alot`
+        * required by `kimchi`
+        * required by `lekhonee`
+        * required by `python-bugzilla`
+        * required by `python2-jira`
+        * required by `retrace-server`
+        * required by `s3cmd`
+        * required by `soscleaner`
+    * ~~`python3-magic`~~, requires `python3`, deliberately unsupported
+        * required by `diffoscope`
+        * required by `python3-bugzilla`
+        * required by `python3-jira`
+        * required by `rpmlint`
 
 * `filesystem`
     * `filesystem`, pulled in by the depsolver
