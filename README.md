@@ -1017,8 +1017,9 @@ to do so.
 * `libidn`
     * `libidn`, pulled in by the depsolver
     * `libidn-devel`, since `libidn` is our API
-    * ~~`libidn-java`~~, requires `java-1.8.0-openjdk` and `javapackages-tools`
-    * ~~`libidn-javadoc`~~, requires `javapackages-tools`
+    * ~~`libidn-java`~~, requires `java-1.8.0-openjdk` and `javapackages-tools`, deliberately unsupported
+        * required by `jxmpp-stringprep-libidn`
+    * ~~`libidn-javadoc`~~, requires `javapackages-tools`, deliberately unsupported
 
 * `libidn2`
     * `libidn2`, pulled in by the depsolver
