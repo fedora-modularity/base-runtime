@@ -1071,7 +1071,7 @@ to do so.
     * `psl`, preventing a split
         * depends on `glibc`
         * depends on `libpsl`
-    * ~~`psl-make-dafsa`~~, requires `python3`
+    * ~~`psl-make-dafsa`~~, requires `python3`, deliberately unsupported
 
 * `libpwquality`
     * `libpwquality`, pulled in by the depsolver
