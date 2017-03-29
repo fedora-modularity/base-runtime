@@ -214,7 +214,7 @@ to do so.
         * depends on `glibc`
         * depends on `libcrypt`
         * depends on `openssl-libs`
-    * ~~`cyrus-sasl-sql`~~, requires `mariadb-libs` and `postgresql-libs`
+    * ~~`cyrus-sasl-sql`~~, requires `mariadb-libs` and `postgresql-libs`, deliberately unsupported
 
 * `dbus`
     * `dbus`, pulled in by the depsolver
