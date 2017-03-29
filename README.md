@@ -116,7 +116,7 @@ to do so.
 
 * `chkconfig`
     * `chkconfig`, pulled in by the depsolver
-    * ~~`ntsysv`~~, requires `newt`
+    * ~~`ntsysv`~~, requires `newt`, deliberately unsupported
 
 * `coreutils`
     * `coreutils`, pulled in by the depsolver
