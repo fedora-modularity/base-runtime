@@ -1332,7 +1332,7 @@ to do so.
 * `nghttp2`
     * `libnghttp2`, pulled in by the depsolver
     * `libnghttp2-devel`, since `libnghttp2` is our API
-    * `nghttp2`, **possibly a temporary split**, requires `c-ares`
+    * ~~`nghttp2`~~, **possibly a temporary split**, requires `c-ares`
 
 * `npth`
     * `npth`, pulled in by the depsolver
