@@ -258,7 +258,7 @@ to do so.
     * `dwz`, pulled in by the depsolver
 
 * `e2fsprogs`
-    * ~~`e2fsprogs`~~, requires `fuse-libs`
+    * `e2fsprogs`, preventing a split
     * `e2fsprogs-devel`, since `e2fsprogs-libs` is our API
     * `e2fsprogs-libs`, preventing a split
         * depends on `glibc`
@@ -355,6 +355,13 @@ to do so.
     * ~~`freetype-demos`~~, requires `libX11`, deliberately unsupported
         * not required by anything
     * `freetype-devel`, since `freetype` is our API
+
+* `fuse`
+    * `fuse`, preventing a split
+        * depends on `glibc`
+        * depends on `which`
+    * `fuse-devel`, since `fuse-libs` is our API
+    * `fuse-libs`, pulled in by the depsolver
 
 * `gawk`
     * `gawk`, pulled in by the depsolver
@@ -944,7 +951,7 @@ to do so.
 
 * `libassuan`
     * `libassuan`, pulled in by the depsolver
-    * ~~`libassuan-devel`~~, **temporarily removed**, requires `pth-devel`
+    * `libassuan-devel`, since `libassuan` is our API
 
 * `libatomic_ops`
     * `libatomic_ops`, pulled in by the depsolver
@@ -1001,6 +1008,11 @@ to do so.
     * ~~`libdnf-devel`~~, **temporarily removed**, requires `rpm-ostree`
     * ~~`python2-hawkey`~~, requires `python2`
     * ~~`python3-hawkey`~~, requires `python3`
+
+* `libev`
+    * `libev`, pulled in by the depsolver
+    * `libev-devel`, since `libev` is our API
+    * `libev-libevent-devel`, since `libev` is our API
 
 * `libffi`
     * `libffi`, pulled in by the depsolver
@@ -1176,8 +1188,11 @@ to do so.
         * depends on `glibc`
         * depends on `libverto`
     * `libverto-glib-devel`, since `libverto-glib` is our API
-    * ~~`libverto-libev`~~, requires `libev`
-    * ~~`libverto-libev-devel`~~, pointless without `libverto-libev`
+    * `libverto-libev`, preventing a split
+        * depends on `glibc`
+        * depends on `libev`
+        * depends on `libverto`
+    * `libverto-libev-devel`, since `libverto-libev` is our API
     * ~~`libverto-libevent`~~, requires `libevent`
     * ~~`libverto-libevent-devel`~~, pointless without `libverto-libevent`
     * ~~`libverto-tevent`~~, requires `libtalloc`, `libtevent`
@@ -1317,7 +1332,7 @@ to do so.
 * `nghttp2`
     * `libnghttp2`, pulled in by the depsolver
     * `libnghttp2-devel`, since `libnghttp2` is our API
-    * ~~`nghttp2`~~, requires `libev`
+    * `nghttp2`, **possibly a temporary split**, requires `c-ares`
 
 * `npth`
     * `npth`, pulled in by the depsolver
@@ -1432,6 +1447,11 @@ to do so.
     * `procps-ng-devel`, since `procps-ng` is our API
     * `procps-ng-i18n`, preventing a split
         * depends on `procps-ng`
+
+* `pth`
+    * `pth`, preventing a split
+        * depends on `glibc`
+    * `pth-devel`, pulled in by the depsolver
 
 * `publicsuffix-list`
     * `publicsuffix-list`, preventing a split

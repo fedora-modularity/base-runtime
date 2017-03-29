@@ -99,7 +99,7 @@ dracut-044-177.fc26
 dwz-0.12-3.fc26
 *	dwz-0.12-3.fc26.x86_64.rpm
 e2fsprogs-1.43.4-2.fc26
-!	e2fsprogs-1.43.4-2.fc26.x86_64.rpm
++	e2fsprogs-1.43.4-2.fc26.x86_64.rpm
 +	e2fsprogs-devel-1.43.4-2.fc26.x86_64.rpm
 +	e2fsprogs-libs-1.43.4-2.fc26.x86_64.rpm
 +	e2fsprogs-static-1.43.4-2.fc26.x86_64.rpm
@@ -161,6 +161,10 @@ freetype-2.7.1-2.fc26
 *	freetype-2.7.1-2.fc26.x86_64.rpm
 !	freetype-demos-2.7.1-2.fc26.x86_64.rpm
 +	freetype-devel-2.7.1-2.fc26.x86_64.rpm
+fuse-2.9.7-2.fc26
++	fuse-2.9.7-2.fc26.x86_64.rpm
++	fuse-devel-2.9.7-2.fc26.x86_64.rpm
+*	fuse-libs-2.9.7-2.fc26.x86_64.rpm
 gawk-4.1.4-3.fc26
 *	gawk-4.1.4-3.fc26.x86_64.rpm
 +	gawk-devel-4.1.4-3.fc26.x86_64.rpm
@@ -533,7 +537,7 @@ libarchive-3.2.2-3.fc26
 +	libarchive-devel-3.2.2-3.fc26.x86_64.rpm
 libassuan-2.4.3-2.fc26
 *	libassuan-2.4.3-2.fc26.x86_64.rpm
-!	libassuan-devel-2.4.3-2.fc26.x86_64.rpm
++	libassuan-devel-2.4.3-2.fc26.x86_64.rpm
 libatomic_ops-7.4.4-2.fc26
 *	libatomic_ops-7.4.4-2.fc26.x86_64.rpm
 +	libatomic_ops-devel-7.4.4-2.fc26.x86_64.rpm
@@ -570,6 +574,10 @@ libdnf-0.7.4-1.fc26
 !	libdnf-devel-0.7.4-1.fc26.x86_64.rpm
 !	python2-hawkey-0.7.4-1.fc26.x86_64.rpm
 !	python3-hawkey-0.7.4-1.fc26.x86_64.rpm
+libev-4.24-2.fc26
+*	libev-4.24-2.fc26.x86_64.rpm
++	libev-devel-4.24-2.fc26.x86_64.rpm
++	libev-libevent-devel-4.24-2.fc26.x86_64.rpm
 libffi-3.1-10.fc26
 *	libffi-3.1-10.fc26.x86_64.rpm
 +	libffi-devel-3.1-10.fc26.x86_64.rpm
@@ -687,8 +695,8 @@ libverto-0.2.6-7.fc26
 +	libverto-devel-0.2.6-7.fc26.x86_64.rpm
 +	libverto-glib-0.2.6-7.fc26.x86_64.rpm
 +	libverto-glib-devel-0.2.6-7.fc26.x86_64.rpm
-!	libverto-libev-0.2.6-7.fc26.x86_64.rpm
-!	libverto-libev-devel-0.2.6-7.fc26.x86_64.rpm
++	libverto-libev-0.2.6-7.fc26.x86_64.rpm
++	libverto-libev-devel-0.2.6-7.fc26.x86_64.rpm
 !	libverto-libevent-0.2.6-7.fc26.x86_64.rpm
 !	libverto-libevent-devel-0.2.6-7.fc26.x86_64.rpm
 !	libverto-tevent-0.2.6-7.fc26.x86_64.rpm
@@ -856,6 +864,9 @@ procps-ng-3.3.10-13.fc26
 *	procps-ng-3.3.10-13.fc26.x86_64.rpm
 +	procps-ng-devel-3.3.10-13.fc26.x86_64.rpm
 +	procps-ng-i18n-3.3.10-13.fc26.noarch.rpm
+pth-2.0.7-28.fc26
++	pth-2.0.7-28.fc26.x86_64.rpm
+*	pth-devel-2.0.7-28.fc26.x86_64.rpm
 publicsuffix-list-20170206-1.fc26
 +	publicsuffix-list-20170206-1.fc26.noarch.rpm
 *	publicsuffix-list-dafsa-20170206-1.fc26.noarch.rpm
