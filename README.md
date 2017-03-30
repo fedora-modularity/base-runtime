@@ -234,7 +234,7 @@ to do so.
         * depends on `glib2`
         * depends on `glibc`
         * depends on `systemd-libs`
-    * ~~`dbus-x11`~~, requires `libX11` and `xorg-x11-xinit`
+    * ~~`dbus-x11`~~, requires `libX11` and `xorg-x11-xinit`, deliberately unsupported
 
 * `diffutils`
     * `diffutils`, pulled in by the depsolver
