@@ -111,6 +111,10 @@ to do so.
     * `bzip2-libs`, pulled in by the depsolver
     * `bzip2-static`, since `bzip2` is our API
 
+* `c-ares`
+    * `c-ares`, pulled in by the depsolver
+    * `c-ares-devel`, since `c-ares` is our API
+
 * `ca-certificates`
     * `ca-certificates`, pulled in by the depsolver
 
@@ -218,7 +222,7 @@ to do so.
 
 * `dbus`
     * `dbus`, pulled in by the depsolver
-    * ~~`dbus-devel`~~, **temporarily removed**, requires `xml-common`
+    * `dbus-devel`, since `dbus-libs` is our API
     * `dbus-doc`, preventing a split
         * depends on `coreutils`
         * depends on `dbus`
@@ -1332,7 +1336,17 @@ to do so.
 * `nghttp2`
     * `libnghttp2`, pulled in by the depsolver
     * `libnghttp2-devel`, since `libnghttp2` is our API
-    * ~~`nghttp2`~~, **possibly a temporary split**, requires `c-ares`
+    * `nghttp2`, preventing a split
+        * depends on `c-ares`
+        * depends on `coreutils`
+        * depends on `glibc`
+        * depends on `libev`
+        * depends on `libgcc`
+        * depends on `libnghttp2`
+        * depends on `libstdc++`
+        * depends on `openssl-libs`
+        * depends on `systemd-libs`
+        * depends on `zlib`
 
 * `npth`
     * `npth`, pulled in by the depsolver
@@ -1596,6 +1610,12 @@ to do so.
 
 * `setup`
     * `setup`, pulled in by the depsolver
+
+* `sgml-common`
+    * `sgml-common`, preventing a split
+        * depends on `bash`
+        * depends on `coreutils`
+    * `xml-common`, pulled in by the depsolver
 
 * `shadow-utils`
     * `shadow-utils`, pulled in by the depsolver
