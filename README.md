@@ -1009,7 +1009,7 @@ to do so.
 
 * `libdnf`
     * `libdnf`, pulled in by the depsolver
-    * ~~`libdnf-devel`~~, **temporarily removed**, requires `rpm-ostree`
+    * `libdnf-devel`, since `libdnf` is our API
     * ~~`python2-hawkey`~~, requires `python2`
     * ~~`python3-hawkey`~~, requires `python3`
 
