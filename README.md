@@ -1010,8 +1010,18 @@ to do so.
 * `libdnf`
     * `libdnf`, pulled in by the depsolver
     * `libdnf-devel`, since `libdnf` is our API
-    * ~~`python2-hawkey`~~, requires `python2`
-    * ~~`python3-hawkey`~~, requires `python3`
+    * ~~`python2-hawkey`~~, requires `python2`, deliberately unsupported
+        * required by `koschei-backend`
+        * required by `libtaskotron-fedora`
+        * required by `python-blivet1`
+        * required by `python2-dnf`
+        * required by `python2-dnf-plugins-core`
+        * required by `python2-rpmdeplint`
+    * ~~`python3-hawkey`~~, requires `python3`, deliberately unsupported
+        * required by `python3-blivet`
+        * required by `python3-dnf`
+        * required by `python3-dnf-plugins-core`
+        * required by `python3-rpmdeplint`
 
 * `libev`
     * `libev`, pulled in by the depsolver
