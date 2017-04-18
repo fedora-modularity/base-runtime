@@ -574,7 +574,7 @@ libdb-5.3.28-17.fc26
 *	libdb-utils-5.3.28-17.fc26.x86_64.rpm
 libdnf-0.7.4-1.fc26
 *	libdnf-0.7.4-1.fc26.x86_64.rpm
-+	libdnf-devel-0.7.4-1.fc26.x86_64.rpm
+!	libdnf-devel-0.7.4-1.fc26.x86_64.rpm
 !	python2-hawkey-0.7.4-1.fc26.x86_64.rpm
 !	python3-hawkey-0.7.4-1.fc26.x86_64.rpm
 libev-4.24-2.fc26

@@ -1009,7 +1009,7 @@ to do so.
 
 * `libdnf`
     * `libdnf`, pulled in by the depsolver
-    * `libdnf-devel`, since `libdnf` is our API
+    * ~~`libdnf-devel`~~, **temporarily removed**, requires `glib2-devel` and `librepo-devel`
     * ~~`python2-hawkey`~~, requires `python2`, deliberately unsupported
         * required by `koschei-backend`
         * required by `libtaskotron-fedora`
