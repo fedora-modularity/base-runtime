@@ -71,8 +71,8 @@ curl-7.53.1-2.fc26
 *	libcurl-7.53.1-2.fc26.x86_64.rpm
 +	libcurl-devel-7.53.1-2.fc26.x86_64.rpm
 cyrus-sasl-2.1.26-30.fc26
-+	cyrus-sasl-2.1.26-30.fc26.x86_64.rpm
-+	cyrus-sasl-devel-2.1.26-30.fc26.x86_64.rpm
+-	cyrus-sasl-2.1.26-30.fc26.x86_64.rpm
+-	cyrus-sasl-devel-2.1.26-30.fc26.x86_64.rpm
 +	cyrus-sasl-gs2-2.1.26-30.fc26.x86_64.rpm
 +	cyrus-sasl-gssapi-2.1.26-30.fc26.x86_64.rpm
 +	cyrus-sasl-ldap-2.1.26-30.fc26.x86_64.rpm
@@ -81,7 +81,7 @@ cyrus-sasl-2.1.26-30.fc26
 +	cyrus-sasl-ntlm-2.1.26-30.fc26.x86_64.rpm
 +	cyrus-sasl-plain-2.1.26-30.fc26.x86_64.rpm
 +	cyrus-sasl-scram-2.1.26-30.fc26.x86_64.rpm
-+	cyrus-sasl-sql-2.1.26-30.fc26.x86_64.rpm
+-	cyrus-sasl-sql-2.1.26-30.fc26.x86_64.rpm
 dbus-1.11.10-2.fc26
 *	dbus-1.11.10-2.fc26.x86_64.rpm
 +	dbus-devel-1.11.10-2.fc26.x86_64.rpm
@@ -143,7 +143,7 @@ expat-2.2.0-2.fc26
 +	expat-static-2.2.0-2.fc26.x86_64.rpm
 fbset-2.1-40.fc27
 *	fbset-2.1-40.fc27.x86_64.rpm
-+	modeline2fb-2.1-40.fc27.x86_64.rpm
+-	modeline2fb-2.1-40.fc27.x86_64.rpm
 fedora-logos-26.0.0-2.fc26
 *	fedora-logos-26.0.0-2.fc26.x86_64.rpm
 +	fedora-logos-httpd-26.0.0-2.fc26.noarch.rpm
@@ -485,10 +485,10 @@ gpgme-1.9.0-1.fc27
 +	gpgme-devel-1.9.0-1.fc27.x86_64.rpm
 +	gpgmepp-1.9.0-1.fc27.x86_64.rpm
 +	gpgmepp-devel-1.9.0-1.fc27.x86_64.rpm
-+	python2-gpg-1.9.0-1.fc27.x86_64.rpm
+-	python2-gpg-1.9.0-1.fc27.x86_64.rpm
 +	python3-gpg-1.9.0-1.fc27.x86_64.rpm
-+	qgpgme-1.9.0-1.fc27.x86_64.rpm
-+	qgpgme-devel-1.9.0-1.fc27.x86_64.rpm
+-	qgpgme-1.9.0-1.fc27.x86_64.rpm
+-	qgpgme-devel-1.9.0-1.fc27.x86_64.rpm
 grep-3.0-1.fc26
 *	grep-3.0-1.fc26.x86_64.rpm
 grub2-2.02-0.38.fc26
@@ -524,18 +524,18 @@ kernel-4.11.0-0.rc7.git0.1.fc26
 +	kernel-cross-headers-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
 +	kernel-debug-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
 +	kernel-debug-core-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
-+	kernel-debug-devel-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
+-	kernel-debug-devel-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
 +	kernel-debug-modules-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
 +	kernel-debug-modules-extra-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
-+	kernel-devel-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
+-	kernel-devel-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
 *	kernel-headers-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
 +	kernel-modules-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
 +	kernel-modules-extra-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
-+	kernel-tools-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
+-	kernel-tools-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
 +	kernel-tools-libs-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
-+	kernel-tools-libs-devel-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
-+	perf-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
-+	python-perf-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
+-	kernel-tools-libs-devel-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
+-	perf-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
+-	python-perf-4.11.0-0.rc7.git0.1.fc26.x86_64.rpm
 keyutils-1.5.9-9.fc26
 +	keyutils-1.5.9-9.fc26.x86_64.rpm
 *	keyutils-libs-1.5.9-9.fc26.x86_64.rpm
@@ -671,7 +671,7 @@ libselinux-2.6-2.fc26
 +	libselinux-devel-2.6-2.fc26.x86_64.rpm
 -	libselinux-python-2.6-2.fc26.x86_64.rpm
 +	libselinux-python3-2.6-2.fc26.x86_64.rpm
--	libselinux-ruby-2.6-2.fc26.x86_64.rpm
++	libselinux-ruby-2.6-2.fc26.x86_64.rpm
 +	libselinux-static-2.6-2.fc26.x86_64.rpm
 +	libselinux-utils-2.6-2.fc26.x86_64.rpm
 libsemanage-2.6-2.fc26
@@ -697,7 +697,7 @@ libsolv-0.6.26-1.fc26
 -	perl-solv-0.6.26-1.fc26.x86_64.rpm
 -	python2-solv-0.6.26-1.fc26.x86_64.rpm
 +	python3-solv-0.6.26-1.fc26.x86_64.rpm
--	ruby-solv-0.6.26-1.fc26.x86_64.rpm
++	ruby-solv-0.6.26-1.fc26.x86_64.rpm
 libssh2-1.8.0-2.fc26
 *	libssh2-1.8.0-2.fc26.x86_64.rpm
 -	libssh2-devel-1.8.0-2.fc26.x86_64.rpm
@@ -850,7 +850,7 @@ ocaml-srpm-macros-4-2.fc26
 openldap-2.4.44-8.fc26
 *	openldap-2.4.44-8.fc26.x86_64.rpm
 +	openldap-clients-2.4.44-8.fc26.x86_64.rpm
-+	openldap-devel-2.4.44-8.fc26.x86_64.rpm
+-	openldap-devel-2.4.44-8.fc26.x86_64.rpm
 -	openldap-servers-2.4.44-8.fc26.x86_64.rpm
 openssl-1.1.0e-1.fc26
 +	openssl-1.1.0e-1.fc26.x86_64.rpm
@@ -983,6 +983,8 @@ sgml-common-0.6.3-45.fc26
 *	xml-common-0.6.3-45.fc26.noarch.rpm
 shadow-utils-4.3.1-3.fc26
 *	shadow-utils-4.3.1-3.fc26.x86_64.rpm
+shim-signed-0.8-10.1
+*	shim-0.8-10.1.x86_64.rpm
 sqlite-3.17.0-2.fc26
 +	lemon-3.17.0-2.fc26.x86_64.rpm
 +	sqlite-3.17.0-2.fc26.x86_64.rpm
@@ -1003,7 +1005,7 @@ systemd-233-3.fc26
 *	systemd-233-3.fc26.x86_64.rpm
 +	systemd-container-233-3.fc26.x86_64.rpm
 +	systemd-devel-233-3.fc26.x86_64.rpm
-+	systemd-journal-remote-233-3.fc26.x86_64.rpm
+-	systemd-journal-remote-233-3.fc26.x86_64.rpm
 *	systemd-libs-233-3.fc26.x86_64.rpm
 *	systemd-pam-233-3.fc26.x86_64.rpm
 +	systemd-tests-233-3.fc26.x86_64.rpm
