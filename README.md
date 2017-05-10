@@ -33,10 +33,11 @@ This section documents all the source and binary packages included in
 the Base Runtime along with brief reasoning why the particular component
 was included or excluded.
 
-The component list is based on the output of
-[whatpkgs](https://github.com/fedora-modularity/whatpkgs) ran against
-Fedora 26 dist-git branch point metadata.  The input for teh depsolver
-can be found in the `toplevel-binary-packages.txt` file.
+The component list is based on
+[Base Runtime package lists](https://github.com/fedora-modularity/baseruntime-package-lists).
+The input for the
+[depsolver](https://github.com/fedora-modularity/depchase) can be found
+in the `toplevel-binary-packages.txt` files.
 
 Decisions whether a particular subpackage should be included or not is
 based on a small set of basic rules:
