@@ -597,10 +597,10 @@ libdb-5.3.28-17.fc26
 +	libdb-tcl-devel-5.3.28-17.fc26.i686.rpm
 *	libdb-utils-5.3.28-17.fc26.i686.rpm
 libdnf-0.7.4-1.fc26
-*	libdnf-0.7.4-1.fc26.i686.rpm
--	libdnf-devel-0.7.4-1.fc26.i686.rpm
--	python2-hawkey-0.7.4-1.fc26.i686.rpm
--	python3-hawkey-0.7.4-1.fc26.i686.rpm
+*	libdnf-0.8.2-1.fc26.i686.rpm
+-	libdnf-devel-0.8.2-1.fc26.i686.rpm
+-	python2-hawkey-0.8.2-1.fc26.i686.rpm
++	python3-hawkey-0.8.2-1.fc26.i686.rpm
 libev-4.24-2.fc26
 *	libev-4.24-2.fc26.i686.rpm
 +	libev-devel-4.24-2.fc26.i686.rpm
