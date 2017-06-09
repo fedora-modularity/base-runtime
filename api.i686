@@ -675,7 +675,7 @@ libselinux-2.6-2.fc26
 +	libselinux-devel-2.6-2.fc26.i686.rpm
 -	libselinux-python-2.6-2.fc26.i686.rpm
 +	libselinux-python3-2.6-2.fc26.i686.rpm
-+	libselinux-ruby-2.6-2.fc26.i686.rpm
+-	libselinux-ruby-2.6-2.fc26.i686.rpm
 +	libselinux-static-2.6-2.fc26.i686.rpm
 +	libselinux-utils-2.6-2.fc26.i686.rpm
 libsemanage-2.6-2.fc26
