@@ -71,8 +71,8 @@ curl-7.53.1-2.fc26
 *	libcurl-7.53.1-2.fc26.i686.rpm
 +	libcurl-devel-7.53.1-2.fc26.i686.rpm
 cyrus-sasl-2.1.26-30.fc26
--	cyrus-sasl-2.1.26-30.fc26.i686.rpm
--	cyrus-sasl-devel-2.1.26-30.fc26.i686.rpm
++	cyrus-sasl-2.1.26-30.fc26.i686.rpm
++	cyrus-sasl-devel-2.1.26-30.fc26.i686.rpm
 +	cyrus-sasl-gs2-2.1.26-30.fc26.i686.rpm
 +	cyrus-sasl-gssapi-2.1.26-30.fc26.i686.rpm
 +	cyrus-sasl-ldap-2.1.26-30.fc26.i686.rpm
@@ -89,6 +89,8 @@ dbus-1.11.10-2.fc26
 *	dbus-libs-1.11.10-2.fc26.i686.rpm
 +	dbus-tests-1.11.10-2.fc26.i686.rpm
 -	dbus-x11-1.11.10-2.fc26.i686.rpm
+device-mapper-persistent-data-0.6.3-5.fc26
++	device-mapper-persistent-data-0.6.3-5.fc26.i686.rpm
 diffutils-3.5-3.fc26
 *	diffutils-3.5-3.fc26.i686.rpm
 dracut-044-177.fc26
@@ -502,13 +504,18 @@ hfsutils-3.2.6-31.fc26
 *	hfsutils-3.2.6-31.fc26.i686.rpm
 +	hfsutils-devel-3.2.6-31.fc26.i686.rpm
 -	hfsutils-x11-3.2.6-31.fc26.i686.rpm
+iproute-4.11.0-1.fc26
++	iproute-4.11.0-1.fc26.i686.rpm
++	iproute-devel-4.11.0-1.fc26.i686.rpm
++	iproute-doc-4.11.0-1.fc26.i686.rpm
+-	iproute-tc-4.11.0-1.fc26.i686.rpm
 iptables-1.6.1-2.fc26
--	iptables-1.6.1-2.fc26.i686.rpm
++	iptables-1.6.1-2.fc26.i686.rpm
 -	iptables-compat-1.6.1-2.fc26.i686.rpm
--	iptables-devel-1.6.1-2.fc26.i686.rpm
++	iptables-devel-1.6.1-2.fc26.i686.rpm
 *	iptables-libs-1.6.1-2.fc26.i686.rpm
--	iptables-services-1.6.1-2.fc26.i686.rpm
--	iptables-utils-1.6.1-2.fc26.i686.rpm
++	iptables-services-1.6.1-2.fc26.i686.rpm
++	iptables-utils-1.6.1-2.fc26.i686.rpm
 isl-0.16.1-1.fc26
 *	isl-0.16.1-1.fc26.i686.rpm
 +	isl-devel-0.16.1-1.fc26.i686.rpm
@@ -556,6 +563,9 @@ krb5-1.15-9.fc26
 -	krb5-server-ldap-1.15-9.fc26.i686.rpm
 +	krb5-workstation-1.15-9.fc26.i686.rpm
 +	libkadm5-1.15-9.fc26.i686.rpm
+libaio-0.3.110-7.fc26
++	libaio-0.3.110-7.fc26.i686.rpm
++	libaio-devel-0.3.110-7.fc26.i686.rpm
 libarchive-3.2.2-3.fc26
 +	bsdcat-3.2.2-3.fc26.i686.rpm
 +	bsdcpio-3.2.2-3.fc26.i686.rpm
@@ -632,10 +642,20 @@ libksba-1.3.5-3.fc26
 libmetalink-0.1.3-2.fc26
 *	libmetalink-0.1.3-2.fc26.i686.rpm
 +	libmetalink-devel-0.1.3-2.fc26.i686.rpm
+libmnl-1.0.4-2.fc26
++	libmnl-1.0.4-2.fc26.i686.rpm
++	libmnl-devel-1.0.4-2.fc26.i686.rpm
++	libmnl-static-1.0.4-2.fc26.i686.rpm
 libmpc-1.0.2-6.fc26
 +	compat-libmpc-1.0.2-6.fc26.i686.rpm
 *	libmpc-1.0.2-6.fc26.i686.rpm
 +	libmpc-devel-1.0.2-6.fc26.i686.rpm
+libnetfilter_conntrack-1.0.6-2.fc26
++	libnetfilter_conntrack-1.0.6-2.fc26.i686.rpm
++	libnetfilter_conntrack-devel-1.0.6-2.fc26.i686.rpm
+libnfnetlink-1.0.1-9.fc26
++	libnfnetlink-1.0.1-9.fc26.i686.rpm
++	libnfnetlink-devel-1.0.1-9.fc26.i686.rpm
 libpcap-1.8.1-3.fc26
 *	libpcap-1.8.1-3.fc26.i686.rpm
 +	libpcap-devel-1.8.1-3.fc26.i686.rpm
@@ -775,11 +795,11 @@ lvm2-2.02.168-4.fc26
 +	device-mapper-event-devel-1.02.137-4.fc26.i686.rpm
 +	device-mapper-event-libs-1.02.137-4.fc26.i686.rpm
 *	device-mapper-libs-1.02.137-4.fc26.i686.rpm
--	lvm2-2.02.168-4.fc26.i686.rpm
++	lvm2-2.02.168-4.fc26.i686.rpm
 -	lvm2-cluster-2.02.168-4.fc26.i686.rpm
 -	lvm2-cluster-standalone-2.02.168-4.fc26.i686.rpm
 -	lvm2-dbusd-2.02.168-4.fc26.i686.rpm
--	lvm2-devel-2.02.168-4.fc26.i686.rpm
++	lvm2-devel-2.02.168-4.fc26.i686.rpm
 +	lvm2-libs-2.02.168-4.fc26.i686.rpm
 -	lvm2-lockd-2.02.168-4.fc26.i686.rpm
 -	lvm2-python-libs-2.02.168-4.fc26.i686.rpm
@@ -853,7 +873,7 @@ ocaml-srpm-macros-4-2.fc26
 openldap-2.4.44-8.fc26
 *	openldap-2.4.44-8.fc26.i686.rpm
 +	openldap-clients-2.4.44-8.fc26.i686.rpm
--	openldap-devel-2.4.44-8.fc26.i686.rpm
++	openldap-devel-2.4.44-8.fc26.i686.rpm
 -	openldap-servers-2.4.44-8.fc26.i686.rpm
 openssl-1.1.0e-1.fc26
 +	openssl-1.1.0e-1.fc26.i686.rpm
